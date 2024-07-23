@@ -1,0 +1,42 @@
+@media  only screen and (max-width:880px){
+    header nav ul , .servises{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        padding: 1vh 3vh;
+        width: 100%;
+        border-radius: 0;
+        position: fixed;
+        border-bottom: 0.5px solid #ffffff17;
+    }
+    header .logo{
+        height: fit-content;
+        display: flex;
+        align-items: center;
+    }
+    header.sticky{
+        margin: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        border-bottom: 0.5px solid #ffffff17;
+    }
+    #particles-js .h1elem{
+        font-size: 18px;
+    }
+    #particles-js .h3elem{
+        font-size: 14px;
+    }
+    #particles-js .btn-support ,#particles-js .btn-shop{
+        padding: 1vh 5vh;
+    }
+}
+@media  only screen and (min-width:880px){
+    header .menu-btn , .closs-menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: none;
+    }
+}
